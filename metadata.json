@@ -1,0 +1,8 @@
+{
+  "name": "Unugha FoodCourt POS",
+  "description": "A real-time food court management system for streamlined transactions, menu control, and automated daily sales reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
