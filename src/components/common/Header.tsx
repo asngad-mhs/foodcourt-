@@ -13,6 +13,7 @@ const NAV_ITEMS: { id: NavigationTab; label: string }[] = [
   { id: 'laporan', label: 'Laporan Harian' },
   { id: 'tenant', label: 'Mitra Stan' },
   { id: 'database', label: 'Skema Database' },
+  { id: 'presentasi', label: '📊 Laporan PPT' },
 ];
 
 export const Header: React.FC<HeaderProps> = ({ onOpenAuthModal }) => {

@@ -4,7 +4,8 @@ export type NavigationTab =
   | 'menu'
   | 'laporan'
   | 'tenant'
-  | 'database';
+  | 'database'
+  | 'presentasi';
 
 export type UserRole = 'kasir' | 'admin_foodcourt' | 'operator_tenant';
 
