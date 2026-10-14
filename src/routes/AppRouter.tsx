@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFoodcourtStore } from '../stores/useFoodcourtStore';
+import { DashboardPage } from '../pages/DashboardPage';
 import { KasirPage } from '../pages/KasirPage';
 import { OrderQueuePage } from '../pages/OrderQueuePage';
 import { MenuManagementPage } from '../pages/MenuManagementPage';
@@ -12,6 +13,8 @@ export const AppRouter: React.FC = () => {
   const activeTab = useFoodcourtStore((s) => s.activeTab);
 
   switch (activeTab) {
+    case 'dashboard':
+      return <DashboardPage />;
     case 'kasir':
       return <KasirPage />;
     case 'antrean':
@@ -27,6 +30,6 @@ export const AppRouter: React.FC = () => {
     case 'presentasi':
       return <PresentationPage />;
     default:
-      return <KasirPage />;
+      return <DashboardPage />;
   }
 };

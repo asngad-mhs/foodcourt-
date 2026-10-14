@@ -1,4 +1,5 @@
 export type NavigationTab =
+  | 'dashboard'
   | 'kasir'
   | 'antrean'
   | 'menu'

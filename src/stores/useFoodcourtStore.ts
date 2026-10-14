@@ -155,7 +155,7 @@ export interface FoodcourtStoreState {
 const initialDb = loadDatabaseFromStorage();
 
 export const useFoodcourtStore = create<FoodcourtStoreState>((set, get) => ({
-  activeTab: 'kasir',
+  activeTab: 'dashboard',
   setActiveTab: (tab) => set({ activeTab: tab }),
 
   currentUser: initialDb.users[0],
